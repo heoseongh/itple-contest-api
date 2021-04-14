@@ -1,4 +1,4 @@
-# [Rest API] Contest
+# Contest Rest API
 
 공모전 정보를 뿌려주는 `Contest API` 개발 레포지터리 입니다.
 
