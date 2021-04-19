@@ -5,3 +5,15 @@ class Contest(models.Model):
     objects = models.Manager()
     title = models.CharField(max_length=1000)
     desc = models.CharField(max_length=500000)
+    #imageUrl
+    # tags ?
+    #requirements
+    #rewards
+
+    # date
+    
+    #pub_date
+    #start_date
+    #end_date
+
+    #view_count
