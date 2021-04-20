@@ -9,3 +9,10 @@ def contestList(request):
     contests = Contest.objects.all()
     serializer = MemberSerializer(contests,many=True)
     return Response(serializer.data)
+
+@api_view(['POST'])
+def contestCreate(request):
+    serializer = MemberSerializer(data=request.data)
+    if(serializer.is_valid()) :
+        serializer.save()
+    return Response(serializer.data)
